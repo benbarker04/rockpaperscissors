@@ -3,7 +3,17 @@
 #heading{
     font-family: 'Anton',
         sans-serif;
-    font-size: 70px;    
+    font-size: 90px;    
     text-align: center;    
     padding-left: 2rem;
+}
+
+.selection-area{
+text-align: center;
+}
+
+.selection-area button{
+    all: unset;
+    padding-left: 6rem;
+    font-size: 5rem;
 }
