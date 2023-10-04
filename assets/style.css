@@ -14,6 +14,6 @@ text-align: center;
 
 .selection-area button{
     all: unset;
-    padding-left: 6rem;
-    font-size: 5rem;
+    padding-right: 7rem;
+    font-size: 4rem;
 }
