@@ -9,11 +9,25 @@
 }
 
 .selection-area{
-text-align: center;
+    position: absolute;
+    bottom: 10%;
+    left: 20rem;
 }
 
 .selection-area button{
     all: unset;
     padding-right: 7rem;
     font-size: 4rem;
+}
+
+#players-choice{
+    position: absolute;
+    width: 250px;
+    left: 30%;
+}
+
+#bots-choice{
+    position: absolute;
+    width: 250px;
+    left: 55%;
 }
