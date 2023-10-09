@@ -109,3 +109,52 @@ body {
 
 }
 
+/*media query:desktops and larger(1200px and wider)*/
+@media screen and (min-width: 1200px) {
+
+    /* Heading of page*/
+    #heading {
+        font-size: 150px;
+        text-align: center;
+    }
+
+    /*Choices area*/
+    .choices-area {
+        width: 100%;
+        text-align: center;
+    }
+
+    #players-choice {
+        width: 450px;
+        padding-right: 50rem;
+    }
+
+    #bots-choice {
+        width: 450px;
+    }
+
+    /*Score area*/
+    #score-area {
+        text-align: center
+    }
+
+    #score-area p {
+        display: inline-block;
+        margin: 2rem;
+        font-size: 35px;
+    }
+
+                /*selection area*/
+                .selection-area {
+                    position: absolute;
+                    bottom: 0%;
+                    text-align: center;
+                    width: 100%;
+                }
+        
+                .selection-area button {
+                    all: unset;
+                    margin: 5rem;
+                    font-size: 5rem;
+                }
+}
