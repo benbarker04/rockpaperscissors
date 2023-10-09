@@ -1,33 +1,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-#heading{
+/*General styles*/
+
+body{
     font-family: 'Anton',
-        sans-serif;
-    font-size: 90px;    
-    text-align: center;    
+            sans-serif;
+}
+
+/* Heading of page*/
+#heading {
+    font-size: 90px;
+    text-align: center;
     padding-left: 2rem;
 }
 
-.selection-area{
+/*selection area*/
+.selection-area {
     position: absolute;
     bottom: 10%;
-    left: 37%;
+    text-align: center;
+    width: 100%;
 }
 
-.selection-area button{
+.selection-area button {
     all: unset;
     padding-right: 7rem;
     font-size: 4rem;
 }
 
-#players-choice{
-    position: absolute;
-    width: 250px;
-    left: 30%;
+/*Choices area*/
+.choices-area {
+    width: 100%;
+    text-align: center;
 }
 
-#bots-choice{
-    position: absolute;
+#players-choice {
     width: 250px;
-    left: 55%;
+    padding-right: 5rem;
+}
+
+#bots-choice {
+    width: 250px;
+}
+
+/*Score area*/
+#score-area{
+    text-align: center
+}
+
+#score-area p{
+    display: inline-block;
+    padding-right: 5rem;
+    padding-top: 5rem;
+    font-size: 35px;
 }
