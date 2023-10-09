@@ -7,10 +7,27 @@ body{
             sans-serif;
 }
 
-#heading {
-    font-size: 90px;
+/*choices area*/
+
+.choices-area{
+    width: 100%;
+    padding-top: 5rem;
+}
+
+#players-choice {
+    width: 100px;
+    padding-left: 1rem;
+}
+
+#bots-choice {
+    width: 100px;
+    padding-left: 1rem;
+}
+
+/*Score area*/
+#score-area {
     text-align: center;
-    padding-left: 2rem;
+    padding-top: 5rem   ;
 }
 
 /*selection area*/
@@ -23,35 +40,8 @@ body{
 
 .selection-area button {
     all: unset;
-    padding-right: 7rem;
     font-size: 4rem;
-}
-
-/*Choices area*/
-.choices-area {
-    width: 100%;
-    text-align: center;
-}
-
-#players-choice {
-    width: 250px;
-    padding-right: 5rem;
-}
-
-#bots-choice {
-    width: 250px;
-}
-
-/*Score area*/
-#score-area {
-    text-align: center
-}
-
-#score-area p {
-    display: inline-block;
-    padding-right: 5rem;
-    padding-top: 5rem;
-    font-size: 35px;
+    padding-right: 1rem;
 }
 
 /*media query:tablets and larger (992px and up)*/
